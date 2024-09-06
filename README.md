@@ -41,3 +41,4 @@ Se você quiser ajudar a melhorar esse projeto, fique à vontade para criar um p
 
 **[Kamiouji1]**
 **[https://github.com/Kamiouji1]**
+**[https://worlds-teams-data.vercel.app/]**
