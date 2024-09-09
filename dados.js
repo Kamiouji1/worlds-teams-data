@@ -54,12 +54,60 @@ let dados = [
       logo: "https://www.hanwhalifeesports.com/logo.png"
     },
     
-    // Times da LPL
-    {titulo: "Bilibili Gaming (BLG)",descricao: "A Bilibili Gaming é uma das equipes mais novas a se destacar na LPL. Com um elenco talentoso e uma base de fãs apaixonada, a BLG busca constantemente se consolidar entre as principais equipes da China.", link: "https://www.bilibili.com/esports"},
-    {titulo: "Top Esports (TES)", descricao: "A Top Esports é uma das equipes mais tradicionais e bem-sucedidas da LPL. Com uma história de conquistas e um estilo de jogo agressivo, a TES sempre é uma forte candidata aos títulos.", link: "https://www.topsports-gaming.com/"},
-    {titulo: "LNG Esports (LNG)", descricao: "A LNG Esports é uma equipe em constante evolução, buscando se tornar uma das forças dominantes da LPL. Com um elenco jovem e talentoso, a LNG promete ser uma das equipes a ser observada nos próximos anos.", link: "https://lngesports.com/"},
-    {titulo: "Weibo Gaming (Weibo)", descricao: "A Weibo Gaming é uma equipe com uma base de fãs apaixonada e um elenco que busca constantemente se aprimorar. Com uma história recente de bons resultados, a Weibo está pronta para desafiar os principais times da LPL.", link: "https://weibo.com/u/6159715078"},
-   
+    // LPL (China)
+    {
+      titulo: "Bilibili Gaming (BLG)",
+      descricao: "A Bilibili Gaming é uma das equipes mais novas a se destacar na LPL. Com um elenco talentoso e uma base de fãs apaixonada, a BLG busca constantemente se consolidar entre as principais equipes da China.",
+      link: "https://www.bilibili.com/esports",
+      elenco: [
+       "Bin",
+       "Xun",
+       "Knight",
+       "Elk",
+       "On"
+      ],
+      logo: "https://www.bilibili.com/esports/logo.png"
+    },
+    {
+      titulo: "Top Esports (TES)",
+      descricao: "A Top Esports é uma das equipes mais tradicionais e bem-sucedidas da LPL. Com uma história de conquistas e um estilo de jogo agressivo, a TES sempre é uma forte candidata aos títulos.",
+      link: "https://www.topsports-gaming.com/",
+      elenco: [
+        "369",
+        "Tian",
+        "Creme",
+        "JackeyLove",
+        "Meiko"
+      ],
+      logo: "https://www.topsports-gaming.com/logo.png"
+    },
+    {
+      titulo: "LNG Esports (LNG)",
+      descricao: "A LNG Esports é uma equipe em constante evolução, buscando se tornar uma das forças dominantes da LPL. Com um elenco jovem e talentoso, a LNG promete ser uma das equipes a ser observada nos próximos anos.",
+      link: "https://lngesports.com/",
+      elenco: [
+        "Zika",
+        "Weiwei",
+        "Scout",
+        "GALA",
+        "Hang"
+      ],
+      logo: "https://lngesports.com/logo.png"
+    },
+    {
+      titulo: "Weibo Gaming (Weibo)",
+      descricao: "A Weibo Gaming é uma equipe com uma base de fãs apaixonada e um elenco que busca constantemente se aprimorar. Com uma história recente de bons resultados, a Weibo está pronta para desafiar os principais times da LPL.",
+      link: "https://weibo.com/u/6159715078",
+      elenco: [
+        "Breathe",
+        "Tarzan",
+        "Xiaohu",
+        "Light",
+        "Crisp"
+      ],
+      logo: "https://weibo.com/u/6159715078/logo.png"
+    },
+
     // LEC (Europa)
     {titulo: "G2 Esports", descricao: "Uma das equipes mais populares e bem-sucedidas da Europa, conhecida por seu estilo de jogo agressivo e jogadas inovadoras.", link: "https://www.g2esports.com/"},
     {titulo: "Fnatic", descricao: "Uma das equipes mais tradicionais e bem-sucedidas da Europa, conhecida por sua consistência e habilidade em competições internacionais.", link: "https://fnatic.com/"},
