@@ -23,6 +23,8 @@ console.log(campoPesquisa);
 let resultado = "";
 let titulo = "";
 let descricao = "";
+let elenco = "";
+let logo = "";
 
 for (let dado of dados){
 
@@ -33,9 +35,10 @@ for (let dado of dados){
     resultado += `
     <div class="item-resultado">
             <h2>
-            <a href="#" target="_blank">${dado.titulo}</a>
+            <a href="#" target="_blank">${dado.titulo}</a> <a>${dado.logo}</a>
             </h2>
             <p class="decricao-meta">${dado.descricao}</p>
+            <p class="elenco-meta">${dado.elenco}</p>
             <a href=${dado.link} target="_blank">Mais Informações</a>
         </div> 
 `;
