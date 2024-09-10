@@ -186,11 +186,3 @@ footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 }
-
-.mycontainer {
-  width:100%;
-  overflow:auto;
-}
-.mycontainer div {
-  width:33%;
-  float:left;
