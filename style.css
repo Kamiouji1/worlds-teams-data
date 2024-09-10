@@ -9,7 +9,7 @@ body {
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
-    height: 230vh; /* Preenche a altura total da viewport */
+    height: 340vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 }
@@ -67,6 +67,13 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+}
+
+/* Estiliza a imagem da logo */
+.logo {
+    width: 60px; /* Define a largura da imagem */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+    margin-bottom: rem; /* Adiciona espaçamento inferior */
 }
 
 /* Estiliza cada item de resultado */
