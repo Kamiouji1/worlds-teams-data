@@ -186,7 +186,7 @@ let dados = [
       {
         "titulo": "paiN Gaming",
         "descricao": "Uma das equipes mais tradicionais do Brasil, conhecida por sua paixão e dedicação ao cenário competitivo de League of Legends.",
-        "link": "https://www.pain.gg/",
+        "link": "https://www.soupain.com.br/",
         "elenco": [
           "Wizer",
           "Cariok",
@@ -194,7 +194,7 @@ let dados = [
           "Titan",
           "Kuri"
         ],
-        "logo": "https://logotyp.us/file/pain.svg"
+        "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png"
       }
     ]
   },
