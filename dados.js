@@ -4,20 +4,20 @@ let dados = [
     "regiao": "lck",
     "times": [
       {
-        "titulo": "SK Telecom T1 (T1)",
+        "titulo": "SK Telecom T1",
         "descricao": "A T1, anteriormente conhecida como SK Telecom T1, é uma das organizações de eSports mais prestigiosas e bem-sucedidas do mundo, especialmente no cenário competitivo de League of Legends.Com uma história rica em títulos internacionais, a T1 se tornou sinônimo de excelência e domínio no jogo. A equipe sul-coreana conquistou o coração dos fãs ao redor do globo com seu estilo de jogo agressivo e estratégico, formando diversas dinastias e inspirando novas gerações de jogadores profissionais. A T1 é mais do que apenas uma equipe; é uma marca que representa a paixão, a dedicação e a busca incansável pela perfeição no mundo dos eSports.",
         "link": "https://www.t1.gg/",
         "elenco": [
-          "Zeus",
-          "Oner",
-          "Faker",
-          "Gumayusi",
-          "Keria"
+          "Zeus", //Toplaner
+          "Oner", //Jungler
+          "Faker", //Midlaner
+          "Gumayusi", //Adcarry
+          "Keria"  //Suport
         ],
         "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/T1_esports_logo.svg"
       },
       {
-        "titulo": "Gen.G Esports (GenG)",
+        "titulo": "Gen.G Esports",
         "descricao": "A Gen.G é outro gigante do League of Legends, conhecido por sua consistência e jogadas estratégicas. Com uma torcida apaixonada, a Gen.G busca sempre alcançar o topo do cenário competitivo.",
         "link": "https://www.gen.gg/",
         "elenco": [
@@ -30,7 +30,7 @@ let dados = [
         "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png"
       },
       {
-        "titulo": "Dplus KIA (DK)",
+        "titulo": "Dplus KIA",
         "descricao": "A DK, anteriormente conhecida como Dplus KIA, é uma das equipes mais consistentes do League of Legends coreano, com um estilo de jogo agressivo e focado em objetivos. Com um elenco talentoso e uma torcida apaixonada, a DK busca sempre dominar o cenário competitivo.",
         "link": "https://dpluskia.com/",
         "elenco": [
@@ -43,7 +43,7 @@ let dados = [
         "logo": "https://upload.wikimedia.org/wikipedia/commons/2/20/DPlus_KIA_Logo.svg"
       },
       {
-        "titulo": "Hanwha Life Esports (HLE)",
+        "titulo": "Hanwha Life",
         "descricao": "A Hanwha Life Esports, abreviada como HLE, é uma equipe em ascensão no cenário competitivo. Com um elenco talentoso e uma organização ambiciosa, a HLE busca se consolidar entre as principais equipes da Coreia do Sul.",
         "link": "https://www.hanwhalifeesports.com/",
         "elenco": [
@@ -62,7 +62,7 @@ let dados = [
     "regiao": "lpl",
     "times": [
       {
-        "titulo": "Bilibili Gaming (BLG)",
+        "titulo": "Bilibili Gaming",
         "descricao": "A Bilibili Gaming é uma das equipes mais novas a se destacar na LPL. Com um elenco talentoso e uma base de fãs apaixonada, a BLG busca constantemente se consolidar entre as principais equipes da China.",
         "link": "https://www.bilibili.com/esports",
         "elenco": [
@@ -75,7 +75,7 @@ let dados = [
         "logo": "https://upload.wikimedia.org/wikipedia/en/6/66/Bilibili_Gaming_logo_%282021%29.png"
       },
       {
-        "titulo": "Top Esports (TES)",
+        "titulo": "Top Esports",
         "descricao": "A Top Esports é uma das equipes mais tradicionais e bem-sucedidas da LPL. Com uma história de conquistas e um estilo de jogo agressivo, a TES sempre é uma forte candidata aos títulos.",
         "link": "https://www.topsports-gaming.com/",
         "elenco": [
@@ -88,7 +88,7 @@ let dados = [
         "logo": "https://upload.wikimedia.org/wikipedia/en/a/ac/Top_Esports_logo.png"
       },
       {
-        "titulo": "LNG Esports (LNG)",
+        "titulo": "LNG Esports",
         "descricao": "A LNG Esports é uma equipe em constante evolução, buscando se tornar uma das forças dominantes da LPL. Com um elenco jovem e talentoso, a LNG promete ser uma das equipes a ser observada nos próximos anos.",
         "link": "https://lngesports.com/",
         "elenco": [
@@ -101,7 +101,7 @@ let dados = [
         "logo": "https://upload.wikimedia.org/wikipedia/pt/b/b4/League_of_legends_pro_league_logo.svg"
       },
       {
-        "titulo": "Weibo Gaming (Weibo)",
+        "titulo": "Weibo Gaming",
         "descricao": "A Weibo Gaming é uma equipe com uma base de fãs apaixonada e um elenco que busca constantemente se aprimorar. Com uma história recente de bons resultados, a Weibo está pronta para desafiar os principais times da LPL.",
         "link": "https://weibo.com/u/6159715078",
         "elenco": [
@@ -156,7 +156,7 @@ let dados = [
           "Light",
           "Crisp"
         ],
-        "logo": "https://weibo.com/u/6159715078/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/8/84/MAD_Lions_logo.svg"
       }
     ]
   },
@@ -175,7 +175,7 @@ let dados = [
           "Tactical", // AD Carry
           "Eyla", // Support
         ],
-        "logo": "https://flyquest.com/images/flyquest-logo.png" // URL da logo da FlyQuest
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flyquest_logo_2021.svg" // URL da logo da FlyQuest
       },
       {
         "titulo": "Team Liquid",
@@ -225,29 +225,37 @@ let dados = [
     ]
   },
   // PCS (Ásia-Pacífico)
-  {
-    "regiao": "pcs",
-    "times": [
-      {
-        "titulo": "PSG Talon",
-        "descricao": "Uma equipe taiwanesa conhecida por seu estilo de jogo agressivo e jogadores talentosos, apoiada pela marca esportiva PSG.",
-        "link": "https://www.ps-gaming.com/"
-      },
-      {
-        "titulo": "Fukuoka SoftBank HAWKS gaming",
-        "descricao": "Uma equipe japonesa conhecida por sua habilidade em jogos de equipe e estratégias inovadoras.",
-        "link": "https://www.hawks-gaming.jp/",
-        "elenco": [
-          "Wizer",
-          "Cariok",
-          "Dynkedo",
-          "Titan",
-          "Kuri"
-        ],
-        "logo": ""
-      }
-    ]
-  },
+{
+  "regiao": "pcs",
+  "times": [
+    {
+      "titulo": "PSG Talon",
+      "descricao": "Uma equipe taiwanesa conhecida por seu estilo de jogo agressivo e jogadores talentosos, apoiada pela marca esportiva PSG.",
+      "link": "https://www.ps-gaming.com/",
+      "elenco": [
+        "Hanabi",
+        "River",
+        "Maple",
+        "Doggo",
+        "Kaiwing",
+      ],
+      "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1644501567410_PSG_3.png"
+    },
+    {
+      "titulo": "Fukuoka SoftBank HAWKS gaming",
+      "descricao": "Uma equipe japonesa conhecida por sua habilidade em jogos de equipe e estratégias inovadoras.",
+      "link": "https://www.hawks-gaming.jp/",
+      "elenco": [
+        "Yutapon",
+        "Steal",
+        "Ceros",
+        "Yutapon",
+        "Gaeng",
+      ],
+      "logo": ""
+    }
+  ]
+},
   // VCS (Sudeste Asiático)
   {
     "regiao": "vcs",
@@ -263,7 +271,7 @@ let dados = [
           "GALA",
           "Hang"
         ],
-        "logo": "https://lngesports.com/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/5/52/Vikings_Esports_logo.png"
       },
       {
         "titulo": "GAM Esports",
@@ -276,7 +284,7 @@ let dados = [
           "Titan",
           "Kuri"
         ],
-        "logo": ""
+        "logo": "https://upload.wikimedia.org/wikipedia/en/0/00/GIGABYTE_Marines_logo.png"
       }
     ]
   },
@@ -288,13 +296,13 @@ let dados = [
         "descricao": "A Movistar R7 é uma das equipes mais tradicionais e bem-sucedidas da LLA, conhecida por sua história de conquistas e por seus jogadores talentosos. A equipe busca se consolidar como um dos principais times da região, com um estilo de jogo agressivo e focado em objetivos.",
         "link": "https://www.movistar.com.ar/esports/",
         "elenco": [
-          "ADD", // Top Laner
-          "Seiya", // Jungler
-          "Leza", // Mid Laner
-          "Grev", // AD Carry
-          "JoJo", // Support
+          "ADD", 
+          "Seiya", 
+          "Leza", 
+          "Grev", 
+          "JoJo", 
         ],
-        "logo": "https://www.movistar.com.ar/esports/images/logo-movistar-r7.png" // URL da logo da Movistar R7
+        "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2a/Movistar_R7logo_square.png/" // URL da logo da Movistar R7
       }
     ]
   }
