@@ -114,7 +114,7 @@ section button:hover {
     gap: 20px; /* Espaçamento entre os quadrados */
   }
   .regiao {
-    background-color: #fff; /* Cor de fundo do quadrado */
+    background-color: #f8f8dcad; /* Cor de fundo do quadrado */
     border-radius: 10px; /* Borda arredondada */
     padding: 20px; /* Espaçamento interno */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
