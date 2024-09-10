@@ -24,8 +24,9 @@ function pesquisar() {
           resultado += `
             <div class="item-resultado">
               <h2>
-                <a href="#" target="_blank">${time.titulo}</a> <a>${time.logo}</a>
+                <a href="#" target="_blank">${time.titulo}</a>
               </h2>
+              <img src="${time.logo}" alt="${time.titulo} Logo" class="logo"> 
               <p class="decricao-meta">${time.descricao}</p>
               <p class="elenco-meta">${time.elenco.join(', ')}</p>
               <a href=${time.link} target="_blank">Mais Informações</a>
@@ -41,20 +42,20 @@ function pesquisar() {
     section.style.display = "block"; // Exibe a seção se houver resultados
     section.innerHTML = resultado;
   }
-function exibirTimes() {
+  function exibirTimes() {
     for (let dado of dados) {
       let regiao = dado.regiao;
-      let times = dado.times; // Array de times da região atual
+      let times = dado.times;
   
       let divTimes = document.getElementById(`${regiao}-times`);
       let htmlTimes = "";
   
-      // Itera pelos times da região atual
-      for (let time of times) { 
+      for (let time of times) {
         htmlTimes += `
           <div class="time">
             <h2>
-              <a href="#" target="_blank">${time.titulo}</a> <a>${time.logo}</a>
+              <a href="#" target="_blank">${time.titulo}<img src="${time.logo}" alt="${time.titulo} Logo" class="logo"></a>
+     
             </h2>
             <p class="decricao-meta">${time.descricao}</p>
             <p class="elenco-meta">${time.elenco.join(', ')}</p>
