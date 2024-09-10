@@ -9,21 +9,53 @@
 <body>
     <header>
         <h1>
-            Mundial de LOL 2024
+            Worlds 2024
         </h1>
     </header>
     <main>
         <section>
-        <input type="text" placeholder="Digite o nome do time" id="campo-pesquisa">
-        <button onclick="pesquisar()">Pesquisar</button>
-    </section>
-    <section class="resultado-pesquisa"
-    id="resultado-pesquisa">
-    </section>
+            <input type="text" placeholder="Digite o nome do time" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+
+        <section class="resultado-pesquisa" id="resultado-pesquisa" style="display: none;"></section>
+
+        <div class="regiao lck">
+            <h2>LCK</h2>
+            <div class="times" id="lck-times"></div>
+        </div>
+        <div class="regiao lpl">
+            <h2>LPL</h2>
+            <div class="times" id="lpl-times"></div>
+        </div>
+        <div class="regiao lec">
+            <h2>LEC</h2>
+            <div class="times" id="lec-times"></div>
+        </div>
+        <div class="regiao lcs">
+            <h2>LCS</h2>
+            <div class="times" id="lcs-times"></div>
+        </div>
+        <div class="regiao pcs">
+            <h2>PCS</h2>
+            <div class="times" id="pcs-times"></div>
+        </div>
+        <div class="regiao vcs">
+            <h2>VCS</h2>
+            <div class="times" id="vcs-times"></div>
+        </div>
+        <div class="regiao cblol">
+            <h2>CBLOL</h2>
+            <div class="times" id="cblol-times"></div>
+        </div>
+        <div class="regiao lla">
+            <h2>LLA</h2>
+            <div class="times" id="lla-times"></div>
+        </div>
+        <footer>
+            <p>2024 - Times do Mundial. Todos os Direitos Reservados</p>
+        </footer>
     </main>
-    <footer>
-        <p>2024 - Times do Mundial. Todos os Direitos Reservados</p>
-    </footer>
     <script src="dados.js"></script>
     <script src="app.js"></script>
 </body>
