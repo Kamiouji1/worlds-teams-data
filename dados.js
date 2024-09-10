@@ -72,7 +72,7 @@ let dados = [
           "Elk",
           "On"
         ],
-        "logo": "https://www.bilibili.com/esports/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/6/66/Bilibili_Gaming_logo_%282021%29.png"
       },
       {
         "titulo": "Top Esports (TES)",
@@ -85,7 +85,7 @@ let dados = [
           "JackeyLove",
           "Meiko"
         ],
-        "logo": "https://www.topsports-gaming.com/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/a/ac/Top_Esports_logo.png"
       },
       {
         "titulo": "LNG Esports (LNG)",
@@ -98,7 +98,7 @@ let dados = [
           "GALA",
           "Hang"
         ],
-        "logo": "https://lngesports.com/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/pt/b/b4/League_of_legends_pro_league_logo.svg"
       },
       {
         "titulo": "Weibo Gaming (Weibo)",
@@ -111,7 +111,7 @@ let dados = [
           "Light",
           "Crisp"
         ],
-        "logo": "https://weibo.com/u/6159715078/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/pt/7/75/Weibo_Gaming_logo.png"
       }
     ]
   },
@@ -130,7 +130,7 @@ let dados = [
           "Hans Sama",
           "Mikyx"  
         ],
-        "logo": "https://www.g2esports.com/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/pt/2/23/G2_Esports_logo.png"
       },
       {
         "titulo": "Fnatic",
@@ -143,7 +143,7 @@ let dados = [
           "GALA",
           "Hang"
         ],
-        "logo": "https://lngesports.com/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/pt/f/f0/Fnatic_logo.png"
       },
       {
         "titulo": "MAD Lions",
@@ -165,17 +165,43 @@ let dados = [
     "regiao": "lcs",
     "times": [
       {
-        "titulo": "Cloud9",
-        "descricao": "Uma das equipes mais antigas e tradicionais da LCS, com uma grande base de fãs.",
-        "link": "https://www.cloud9.gg/",
+        "titulo": "FlyQuest",
+        "descricao": "A FlyQuest é uma equipe da LCS conhecida por seus jogadores talentosos e seu estilo de jogo agressivo. A equipe busca constantemente se aprimorar e se consolidar entre os principais times da região.",
+        "link": "https://flyquest.com/",
         "elenco": [
-          "Breathe",
-          "Tarzan",
-          "Xiaohu",
-          "Light",
-          "Crisp"
+          "Impact", // Top Laner
+          "Josedeodo", // Jungler
+          "VicLa", // Mid Laner
+          "Tactical", // AD Carry
+          "Eyla", // Support
         ],
-        "logo": "https://weibo.com/u/6159715078/logo.png"
+        "logo": "https://flyquest.com/images/flyquest-logo.png" // URL da logo da FlyQuest
+      },
+      {
+        "titulo": "Team Liquid",
+        "descricao": "O Team Liquid é um dos times mais tradicionais e bem-sucedidos da LCS. Conhecida por sua consistência e jogadores experientes, a equipe sempre busca desafiar o topo da região.",
+        "link": "https://www.teamliquid.com/",
+        "elenco": [
+          "Bwipo", // Top Laner
+          "Santorin", // Jungler
+          "Bjergsen", // Mid Laner
+          "Hans sama", // AD Carry
+          "CoreJJ", // Support
+        ],
+        "logo": "https://www.teamliquid.com/images/logo.png" // URL da logo do Team Liquid
+      },
+      {
+        "titulo": "100 Thieves",
+        "descricao": "Os 100 Thieves são uma organização de esports relativamente nova na LCS, mas que rapidamente conquistou uma grande base de fãs. A equipe busca se consolidar como um dos principais times da região, com um estilo de jogo inovador e agressivo.",
+        "link": "https://100thieves.com/",
+        "elenco": [
+          "Ssumday", // Top Laner
+          "Closer", // Jungler
+          "Huhi", // Mid Laner
+          "Doublelift", // AD Carry
+          "Busio", // Support
+        ],
+        "logo": "https://100thieves.com/images/logo.png" // URL da logo dos 100 Thieves
       }
     ]
   },
@@ -251,6 +277,24 @@ let dados = [
           "Kuri"
         ],
         "logo": ""
+      }
+    ]
+  },
+  {
+    "regiao": "lla",
+    "times": [
+      {
+        "titulo": "Movistar R7",
+        "descricao": "A Movistar R7 é uma das equipes mais tradicionais e bem-sucedidas da LLA, conhecida por sua história de conquistas e por seus jogadores talentosos. A equipe busca se consolidar como um dos principais times da região, com um estilo de jogo agressivo e focado em objetivos.",
+        "link": "https://www.movistar.com.ar/esports/",
+        "elenco": [
+          "ADD", // Top Laner
+          "Seiya", // Jungler
+          "Leza", // Mid Laner
+          "Grev", // AD Carry
+          "JoJo", // Support
+        ],
+        "logo": "https://www.movistar.com.ar/esports/images/logo-movistar-r7.png" // URL da logo da Movistar R7
       }
     ]
   }
