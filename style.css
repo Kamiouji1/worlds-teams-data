@@ -9,7 +9,6 @@ body {
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
-    height: 340vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 }
@@ -37,7 +36,7 @@ section input {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #45474B; /* Cor do texto */
+    color: #0b0c0e; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
@@ -47,8 +46,8 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #30475E; /* Cor de fundo do botão */
-    color: #F5F7F8; /* Cor do texto do botão */
+    background-color: #000000; /* Cor de fundo do botão */
+    color: #6f7070; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
@@ -107,6 +106,22 @@ section button:hover {
     color: #45474B; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
+/* Estiliza os quadrados das ligas */
+.regiao-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os quadrados quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os quadrados horizontalmente */
+    gap: 20px; /* Espaçamento entre os quadrados */
+  }
+  .regiao {
+    background-color: #fff; /* Cor de fundo do quadrado */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: calc(25% - 20px); /* Largura do quadrado (25% da largura total, menos o espaçamento) */
+    min-width: 200px; /* Largura mínima do quadrado */
+    flex-basis: 25%; /* Define a base flexível para o quadrado */
+  }
 
 /* Estiliza o rodapé da página */
 footer {
@@ -179,4 +194,3 @@ footer {
 .mycontainer div {
   width:33%;
   float:left;
-}
