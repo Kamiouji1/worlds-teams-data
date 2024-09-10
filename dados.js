@@ -14,7 +14,7 @@ let dados = [
           "Gumayusi",
           "Keria"
         ],
-        "logo": "https://www.t1.gg/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/T1_esports_logo.svg"
       },
       {
         "titulo": "Gen.G Esports (GenG)",
@@ -27,7 +27,7 @@ let dados = [
           "Peyz",
           "Lehends"
         ],
-        "logo": "https://www.gen.gg/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png"
       },
       {
         "titulo": "Dplus KIA (DK)",
@@ -40,7 +40,7 @@ let dados = [
           "Aiming",
           "Moham"
         ],
-        "logo": "https://dpluskia.com/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/20/DPlus_KIA_Logo.svg"
       },
       {
         "titulo": "Hanwha Life Esports (HLE)",
@@ -53,7 +53,7 @@ let dados = [
           "Viper",
           "Delight"
         ],
-        "logo": "https://www.hanwhalifeesports.com/logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/9/99/Hanwha_Life_Esports_logo.svg"
       }
     ]
   },
@@ -135,12 +135,28 @@ let dados = [
       {
         "titulo": "Fnatic",
         "descricao": "Uma das equipes mais tradicionais e bem-sucedidas da Europa, conhecida por sua consistência e habilidade em competições internacionais.",
-        "link": "https://fnatic.com/"
+        "link": "https://fnatic.com/",
+        "elenco": [
+          "Zika",
+          "Weiwei",
+          "Scout",
+          "GALA",
+          "Hang"
+        ],
+        "logo": "https://lngesports.com/logo.png"
       },
       {
         "titulo": "MAD Lions",
         "descricao": "Uma equipe emergente na Europa, reconhecida por seu estilo de jogo estratégico e jogadores talentosos.",
-        "link": "https://madlions.com/"
+        "link": "https://madlions.com/",
+        "elenco": [
+          "Breathe",
+          "Tarzan",
+          "Xiaohu",
+          "Light",
+          "Crisp"
+        ],
+        "logo": "https://weibo.com/u/6159715078/logo.png"
       }
     ]
   },
@@ -151,7 +167,15 @@ let dados = [
       {
         "titulo": "Cloud9",
         "descricao": "Uma das equipes mais antigas e tradicionais da LCS, com uma grande base de fãs.",
-        "link": "https://www.cloud9.gg/"
+        "link": "https://www.cloud9.gg/",
+        "elenco": [
+          "Breathe",
+          "Tarzan",
+          "Xiaohu",
+          "Light",
+          "Crisp"
+        ],
+        "logo": "https://weibo.com/u/6159715078/logo.png"
       }
     ]
   },
@@ -170,7 +194,7 @@ let dados = [
           "Titan",
           "Kuri"
         ],
-        "logo": "https://weibo.com/u/6159715078/logo.png"
+        "logo": "https://logotyp.us/file/pain.svg"
       }
     ]
   },
@@ -186,7 +210,15 @@ let dados = [
       {
         "titulo": "Fukuoka SoftBank HAWKS gaming",
         "descricao": "Uma equipe japonesa conhecida por sua habilidade em jogos de equipe e estratégias inovadoras.",
-        "link": "https://www.hawks-gaming.jp/"
+        "link": "https://www.hawks-gaming.jp/",
+        "elenco": [
+          "Wizer",
+          "Cariok",
+          "Dynkedo",
+          "Titan",
+          "Kuri"
+        ],
+        "logo": ""
       }
     ]
   },
@@ -197,12 +229,28 @@ let dados = [
       {
         "titulo": "VCS Vikings Esports",
         "descricao": "Uma equipe vietnamita conhecida por sua habilidade em jogos de equipe e estratégias inovadoras.",
-        "link": "https://www.vcs-vikings.com/"
+        "link": "https://www.vcs-vikings.com/",
+        "elenco": [
+          "Zika",
+          "Weiwei",
+          "Scout",
+          "GALA",
+          "Hang"
+        ],
+        "logo": "https://lngesports.com/logo.png"
       },
       {
         "titulo": "GAM Esports",
         "descricao": "Uma equipe vietnamita conhecida por seu estilo de jogo agressivo e jogadores talentosos, com uma longa história de sucesso em competições regionais.",
-        "link": "https://www.gam-esports.vn/"
+        "link": "https://www.gam-esports.vn/",
+        "elenco": [
+          "Wizer",
+          "Cariok",
+          "Dynkedo",
+          "Titan",
+          "Kuri"
+        ],
+        "logo": ""
       }
     ]
   }
