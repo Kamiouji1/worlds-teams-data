@@ -188,7 +188,7 @@ let dados = [
           "Hans sama", // AD Carry
           "CoreJJ", // Support
         ],
-        "logo": "https://www.teamliquid.com/images/logo.png" // URL da logo do Team Liquid
+        "logo": "https://upload.wikimedia.org/wikipedia/pt/4/4b/Teamliquid_logo_blue.png" 
       },
       {
         "titulo": "100 Thieves",
@@ -201,7 +201,7 @@ let dados = [
           "Doublelift", // AD Carry
           "Busio", // Support
         ],
-        "logo": "https://100thieves.com/images/logo.png" // URL da logo dos 100 Thieves
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/16/100_Thieves_logo.svg" 
       }
     ]
   },
