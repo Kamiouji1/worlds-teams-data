@@ -137,11 +137,11 @@ let dados = [
         "descricao": "Uma das equipes mais tradicionais e bem-sucedidas da Europa, conhecida por sua consistência e habilidade em competições internacionais.",
         "link": "https://fnatic.com/",
         "elenco": [
-          "Zika",
-          "Weiwei",
-          "Scout",
-          "GALA",
-          "Hang"
+          "Oscarinin",
+          "Razork",
+          "Humanoid",
+          "Noah",
+          "Jun"
         ],
         "logo": "https://upload.wikimedia.org/wikipedia/pt/f/f0/Fnatic_logo.png"
       },
@@ -150,11 +150,11 @@ let dados = [
         "descricao": "Uma equipe emergente na Europa, reconhecida por seu estilo de jogo estratégico e jogadores talentosos.",
         "link": "https://madlions.com/",
         "elenco": [
-          "Breathe",
-          "Tarzan",
-          "Xiaohu",
-          "Light",
-          "Crisp"
+          "Myrwm",
+          "Elyoya",
+          "Fresskowy",
+          "Supa",
+          "Alvaro"
         ],
         "logo": "https://upload.wikimedia.org/wikipedia/en/8/84/MAD_Lions_logo.svg"
       }
@@ -169,11 +169,11 @@ let dados = [
         "descricao": "A FlyQuest é uma equipe da LCS conhecida por seus jogadores talentosos e seu estilo de jogo agressivo. A equipe busca constantemente se aprimorar e se consolidar entre os principais times da região.",
         "link": "https://flyquest.com/",
         "elenco": [
-          "Impact", // Top Laner
-          "Josedeodo", // Jungler
-          "VicLa", // Mid Laner
-          "Tactical", // AD Carry
-          "Eyla", // Support
+          "Bwipo", // Top Laner
+          "Inspired", // Jungler
+          "Quad", // Mid Laner
+          "Massu", // AD Carry
+          "Busio", // Support
         ],
         "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flyquest_logo_2021.svg" // URL da logo da FlyQuest
       },
@@ -182,10 +182,10 @@ let dados = [
         "descricao": "O Team Liquid é um dos times mais tradicionais e bem-sucedidos da LCS. Conhecida por sua consistência e jogadores experientes, a equipe sempre busca desafiar o topo da região.",
         "link": "https://www.teamliquid.com/",
         "elenco": [
-          "Bwipo", // Top Laner
-          "Santorin", // Jungler
-          "Bjergsen", // Mid Laner
-          "Hans sama", // AD Carry
+          "Impact", // Top Laner
+          "UmTi", // Jungler
+          "APA", // Mid Laner
+          "Yeon", // AD Carry
           "CoreJJ", // Support
         ],
         "logo": "https://upload.wikimedia.org/wikipedia/pt/4/4b/Teamliquid_logo_blue.png" 
@@ -195,11 +195,11 @@ let dados = [
         "descricao": "Os 100 Thieves são uma organização de esports relativamente nova na LCS, mas que rapidamente conquistou uma grande base de fãs. A equipe busca se consolidar como um dos principais times da região, com um estilo de jogo inovador e agressivo.",
         "link": "https://100thieves.com/",
         "elenco": [
-          "Ssumday", // Top Laner
-          "Closer", // Jungler
-          "Huhi", // Mid Laner
-          "Doublelift", // AD Carry
-          "Busio", // Support
+          "Sniper", // Top Laner
+          "River", // Jungler",
+          "Quid", // Mid Laner
+          "Tomo", // AD Carry
+          "Eyla", // Support
         ],
         "logo": "https://upload.wikimedia.org/wikipedia/commons/1/16/100_Thieves_logo.svg" 
       }
@@ -233,11 +233,11 @@ let dados = [
       "descricao": "Uma equipe taiwanesa conhecida por seu estilo de jogo agressivo e jogadores talentosos, apoiada pela marca esportiva PSG.",
       "link": "https://www.ps-gaming.com/",
       "elenco": [
-        "Hanabi",
-        "River",
+        "Azhi",
+        "JunJia",
         "Maple",
-        "Doggo",
-        "Kaiwing",
+        "Betty",
+        "Woody",
       ],
       "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1644501567410_PSG_3.png"
     },
@@ -246,11 +246,11 @@ let dados = [
       "descricao": "Uma equipe japonesa conhecida por sua habilidade em jogos de equipe e estratégias inovadoras.",
       "link": "https://www.hawks-gaming.jp/",
       "elenco": [
-        "Yutapon",
-        "Steal",
-        "Ceros",
-        "Yutapon",
-        "Gaeng",
+        "Evi",
+        "Forest",
+        "Dasher",
+        "Marble",
+        "Vsta",
       ],
       "logo": ""
     }
@@ -265,11 +265,11 @@ let dados = [
         "descricao": "Uma equipe vietnamita conhecida por sua habilidade em jogos de equipe e estratégias inovadoras.",
         "link": "https://www.vcs-vikings.com/",
         "elenco": [
-          "Zika",
-          "Weiwei",
-          "Scout",
-          "GALA",
-          "Hang"
+          "Nanaue",
+          "Tomrio",
+          "Kati",
+          "Shogun",
+          "bie"
         ],
         "logo": "https://upload.wikimedia.org/wikipedia/en/5/52/Vikings_Esports_logo.png"
       },
@@ -278,16 +278,18 @@ let dados = [
         "descricao": "Uma equipe vietnamita conhecida por seu estilo de jogo agressivo e jogadores talentosos, com uma longa história de sucesso em competições regionais.",
         "link": "https://www.gam-esports.vn/",
         "elenco": [
-          "Wizer",
-          "Cariok",
-          "Dynkedo",
-          "Titan",
-          "Kuri"
+          "Kiaya",
+          "Levi",
+          "Emo",
+          "EasyLove",
+          "Elio"
         ],
         "logo": "https://upload.wikimedia.org/wikipedia/en/0/00/GIGABYTE_Marines_logo.png"
       }
     ]
   },
+
+  //
   {
     "regiao": "lla",
     "times": [
@@ -296,11 +298,11 @@ let dados = [
         "descricao": "A Movistar R7 é uma das equipes mais tradicionais e bem-sucedidas da LLA, conhecida por sua história de conquistas e por seus jogadores talentosos. A equipe busca se consolidar como um dos principais times da região, com um estilo de jogo agressivo e focado em objetivos.",
         "link": "https://www.movistar.com.ar/esports/",
         "elenco": [
-          "ADD", 
-          "Seiya", 
-          "Leza", 
-          "Grev", 
-          "JoJo", 
+          "Summit", 
+          "Oddie", 
+          "Keine", 
+          "Ceo", 
+          "Lyonz", 
         ],
         "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2a/Movistar_R7logo_square.png/" // URL da logo da Movistar R7
       }
