@@ -128,8 +128,7 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
-    
+    /* position: absolute; /* Posiciona o rodapé */
     font-size: 1rem; /* Tamanho da fonte */
 }
 @media (max-width: 768px) {
@@ -176,6 +175,17 @@ footer {
 
     .item-resultado h2 {
         font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+    }
+    .social-icons {
+        display: flex;
+        gap: 10px;
+    }
+    .social-icons a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .social-icons i {
+        font-size: 24px;
     }
 
     footer {
