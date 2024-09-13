@@ -12,7 +12,12 @@ body {
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 }
-
+main {
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    flex-direction: column; /* Define a direção do flexbox como coluna */
+  }
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
@@ -20,7 +25,6 @@ h1 {
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
-
 /* Estiliza as seções da página */
 section {
     display: flex; /* Usa Flexbox para layout */
@@ -28,7 +32,6 @@ section {
     align-items: center; /* Centraliza os itens horizontalmente */
     margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
 }
-
 /* Estiliza os inputs dentro das seções */
 section input {
     width: 30rem; /* Largura dos inputs */
@@ -40,7 +43,6 @@ section input {
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
-
 /* Estiliza os botões dentro das seções */
 section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
@@ -51,13 +53,11 @@ section button {
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
-
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
     background-color: #41FDFE; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
-
 /* Estiliza a caixa de resultados da pesquisa */
 .resultado-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
@@ -66,41 +66,40 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+    
 }
-
 /* Estiliza a imagem da logo */
 .logo {
     width: 60px; /* Define a largura da imagem */
     height: auto; /* Ajusta a altura automaticamente para manter a proporção */
     margin-bottom: rem; /* Adiciona espaçamento inferior */
 }
-
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF; /* Cor de fundo dos itens */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    background: #f7f7f7; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
-
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
     color: rgb(0, 100, 100); /* Cor do texto */
 }
-
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
+    color: #578abd; /* Cor do texto dos links */
 }
-
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
-
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
     color: #45474B; /* Cor do texto */
@@ -122,7 +121,6 @@ section button:hover {
     min-width: 200px; /* Largura mínima do quadrado */
     flex-basis: 25%; /* Define a base flexível para o quadrado */
   }
-
 /* Estiliza o rodapé da página */
 footer {
     background-color: #F5F7F8; /* Cor de fundo do rodapé */
@@ -134,7 +132,6 @@ footer {
     
     font-size: 1rem; /* Tamanho da fonte */
 }
-
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem; /* Tamanho da fonte em telas menores */
@@ -155,7 +152,6 @@ footer {
         font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
     }
 }
-
 /* Responsividade para celulares */
 @media (max-width: 480px) {
 
