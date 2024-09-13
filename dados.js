@@ -121,7 +121,7 @@ let dados = [
     "times": [
       {
         "titulo": "G2 Esports",
-        "descricao": "Uma das equipes mais populares e bem-sucedidas da Europa, conhecida por seu estilo de jogo agressivo e jogadas inovadoras.",
+        "descricao": "Uma das equipes mais populares e bem-sucedidas da Europa, conhecida por seu estilo de jogo agressivo e jogadas inovadoras. A G2 Esports teve um ano impressionante em 2024. Eles dominaram o League of Legends EMEA Championship, vencendo as finais da temporada com uma vitória de 3-1 sobre a Fnatic. ",
         "link": "https://www.g2esports.com/",
         "elenco": [
           "BrokenBlade",
@@ -134,7 +134,7 @@ let dados = [
       },
       {
         "titulo": "Fnatic",
-        "descricao": "Uma das equipes mais tradicionais e bem-sucedidas da Europa, conhecida por sua consistência e habilidade em competições internacionais.",
+        "descricao": "Uma das equipes mais tradicionais e bem-sucedidas da Europa, conhecida por sua consistência e habilidade em competições internacionais. Fnatic teve um ano movimentado em 2024. No League of Legends, eles se classificaram para o Mundial de LoL após ficarem entre os três primeiros na LEC Season Finals.",
         "link": "https://fnatic.com/",
         "elenco": [
           "Oscarinin",
@@ -147,7 +147,7 @@ let dados = [
       },
       {
         "titulo": "MAD Lions",
-        "descricao": "Uma equipe emergente na Europa, reconhecida por seu estilo de jogo estratégico e jogadores talentosos.",
+        "descricao": "Uma equipe emergente na Europa, reconhecida por seu estilo de jogo estratégico e jogadores talentosos. MAD Lions também teve um ano notável. Eles se classificaram para o Mundial de LoL, destacando-se na LEC1. Além disso, a equipe manteve uma forte presença no cenário europeu, com Elyoya continuando como um dos jogadores-chave.",
         "link": "https://madlions.com/",
         "elenco": [
           "Myrwm",
@@ -211,7 +211,7 @@ let dados = [
     "times": [
       {
         "titulo": "paiN Gaming",
-        "descricao": "Uma das equipes mais tradicionais do Brasil, conhecida por sua paixão e dedicação ao cenário competitivo de League of Legends.",
+        "descricao": "A paiN Gaming teve um ano incrível no CBLOL 2024. Eles conquistaram o título do 2º Split ao derrotar a Vivo Keyd Stars por 3 a 1 na grande final12. Com essa vitória, a paiN se tornou tetracampeã do CBLOL e garantiu sua vaga no Mundial de League of Legends (Worlds 2024), onde enfrentarão a PSG Talon na primeira rodada.",
         "link": "https://www.soupain.com.br/",
         "elenco": [
           "Wizer",
@@ -230,7 +230,7 @@ let dados = [
   "times": [
     {
       "titulo": "PSG Talon",
-      "descricao": "Uma equipe taiwanesa conhecida por seu estilo de jogo agressivo e jogadores talentosos, apoiada pela marca esportiva PSG.",
+      "descricao": "PSG Talon teve um ano sólido em 2024. Eles se destacaram na PCS, garantindo uma vaga no Mundial de League of Legends após uma performance dominante na temporada regular e nos playoffs1. A equipe continua a ser uma das forças mais consistentes na região, com jogadores como Unified e Kaiwing desempenhando papéis cruciais.",
       "link": "https://www.ps-gaming.com/",
       "elenco": [
         "Azhi",
@@ -243,7 +243,7 @@ let dados = [
     },
     {
       "titulo": "Fukuoka SoftBank HAWKS gaming",
-      "descricao": "Uma equipe japonesa conhecida por sua habilidade em jogos de equipe e estratégias inovadoras.",
+      "descricao": "Também teve um ano notável. Eles venceram o LJL (League of Legends Japan League) Summer Split de 2024, garantindo sua vaga no Mundial de LoL2. A equipe, liderada por jogadores como Evi e DasheR, mostrou um desempenho impressionante ao longo do ano.",
       "link": "https://www.hawks-gaming.jp/",
       "elenco": [
         "Evi",
