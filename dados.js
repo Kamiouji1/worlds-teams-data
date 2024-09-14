@@ -253,7 +253,7 @@ let dados = [
         "Marble",
         "Vsta",
       ],
-      "logo": ""
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/5f/Pacific_Championship_Series_logo.png"
     }
   ]
 },
